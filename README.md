@@ -15,7 +15,7 @@ Working in the embedded field, exploiting the potential of microcontrollers such
 To use this project you don't have to configure anything special, as it happened in the case of Raspberry Pi. So it will be enough to clone this repository with the following command:
 
 ```
-git clone https://github.com/AntonioBerna/nn-gnu-logic-gates.git
+git clone https://github.com/AntonioBerna/nn-gpu-logic-gates.git
 ```
 
 So, by accessing the working directory with the command `cd nn-gpu-logic-gates` and using the command:
@@ -33,7 +33,7 @@ cd build && make
 and finally the command:
 
 ```
-./nn-gnu-logic-gates
+./nn-gpu-logic-gates
 ```
 
 we obtain:
