@@ -21,19 +21,19 @@ git clone https://github.com/AntonioBerna/nn-gpu-logic-gates.git
 So, by accessing the working directory with the command `cd nn-gpu-logic-gates` and using the command:
 
 ```
-cmake . -B build
+cmake -S . -B build
 ```
 
-let's generate the `Makefile` for our operating system. Then using the command
+let's generate the `Makefile` for our operating system. Then using the command:
 
 ```
-cd build && make
+cmake --build build/
 ```
 
 and finally the command:
 
 ```
-./nn-gpu-logic-gates
+./build/nn-gpu-logic-gates
 ```
 
 we obtain:
